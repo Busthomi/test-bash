@@ -54,7 +54,7 @@ How to use
 ```
 chmod +x filter.bash
 ./filter.bash <<NAMEFILE>> <<REPONSE_CODE>>
-``
+```
 
 Result 
 ```
