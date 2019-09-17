@@ -67,3 +67,20 @@ test-folder $ ./filter.bash test.txt 500
 172.10.36.38 - - [09/Sep/2015:08:02:12 +0000] "GET / HTTP/1.1" 500 999 "-" "kube-probe/1.9" "-"
 ```
 
+Array Counter
+
+```
+#!/bin/bash
+
+array=($@)
+tot=0
+for i in ${array[@]}; do
+  let tot+=$i
+done
+echo "Total: $tot"
+```
+
+This script will be counting all input, this script will be read all number as array then will be counting all.
+
+
+
